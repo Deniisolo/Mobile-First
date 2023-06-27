@@ -1,0 +1,27 @@
+/*Agregando estilos:
+Posicionamiento --> static, absolute, relative, fixed
+Modelo de caja (Box model) --> margin, border, padding, content
+Tipografía --> tipos, tamaños de fuente, etc
+Estilos visuales --> box-shadow, border-radius, gradient, etc
+Otros --> reglas CSS y más*/
+
+:root{
+    --bitcon-orange: #F7931A;
+    --soft-orange:#FFE9D5;
+    --secondary-bue: #1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201E1C;
+    --warm-black1:#282623;
+    --grey: #BABABA;
+    --Off-White: #FAF8F7;
+    --Just-White: #FFFFFF;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
