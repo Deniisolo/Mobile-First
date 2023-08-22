@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylecc.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <img src="/Assets/iconos/logocerebritos.svg" alt="Logo de la empresa" />
+      <div class="header--title-container">
+        <h1>Welcome Back, Please login to your account</h1>
+      </div>
+    </header>
+    <main>
+      <form action="procesar_login.php" method="post">
+        <input
+          type="text"
+          placeholder="User, Email & phone"
+          name="usuario"
+          required
+        />
+        <br />
+        <input
+          type="password"
+          placeholder="Password"
+          id="contrasena"
+          name="contrasena"
+          required
+        />
+        <br />
+        <p>forgot your password?</p>
+        <button type="submit">Login</button>
+      </form>
+    </main>
+    <footer>
+      <div class="texto-final">
+        <div class="footer1"></div>
+        <span class="texto-final-p"> </span>
+        <div class="footer2"></div>
+      </div>
+      <div class="container-cuentas">
+        <div class="cuentas"><img src="" alt="Google" /></div>
+        <div class="cuentas">
+          <img src="" alt="facebook" />
+        </div>
+        <div class="cuentas"><img src="" alt="apple" /></div>
+      </div>
+      <div>
+        <p>Don’t have an Account?</p>
+        <a href="#">Create Account</a>
+      </div>
+    </footer>
+  </body>
+</html>

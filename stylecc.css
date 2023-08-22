@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+:root{
+    --gray: #666161;
+    --sotf-gray: #F3F3F3;
+    --black: #2D2626;
+    --white:#FFFFFF;
+    --pink:#F89AEE;
+    --more-black: #000000;
+}

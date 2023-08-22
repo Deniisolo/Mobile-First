@@ -5,89 +5,108 @@ Tipografía --> tipos, tamaños de fuente, etc
 Estilos visuales --> box-shadow, border-radius, gradient, etc
 Otros --> reglas CSS y más*/
 
-:root{
-    --bitcon-orange: #F7931A;
-    --soft-orange:#FFE9D5;
-    --secondary-bue: #1A9AF7;
-    --soft-blue: #E7F5FF;
-    --warm-black: #201E1C;
-    --warm-black1:#282623;
-    --grey: #BABABA;
-    --Off-White: #FAF8F7;
-    --Just-White: #FFFFFF;
+:root {
+  --bitcon-orange: #f7931a;
+  --soft-orange: #ffe9d5;
+  --secondary-bue: #1a9af7;
+  --soft-blue: #e7f5ff;
+  --warm-black: #201e1c;
+  --warm-black1: #282623;
+  --grey: #bababa;
+  --Off-White: #faf8f7;
+  --Just-White: #ffffff;
 }
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 html {
-    font-size: 62.5%;
-    font-family: 'DM Sans', sans-serif;
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
 }
 header {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    min-width: 320px;
-    height: 334px;
-    text-align: center;
-    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-width: 320px;
+  height: 334px;
+  text-align: center;
+  background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
 }
 header img {
-    width: 150px;
-    height: 24px;
-    margin-top: 60px;
-    align-self: center;
+  width: 150px;
+  height: 24px;
+  margin-top: 60px;
+  align-self: center;
 }
-.header--title-container{
+.header--title-container {
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  height: 218px;
+  margin-top: 40;
+  text-align: center;
+  align-self: center;
+}
+.header--title-container h1 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--Just-White);
+}
+.header--title-container p {
+  margin-top: 25px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--soft-orange);
+}
+.header--title-container .header--button {
+  position: absolute;
+  left: calc(50% - 118px);
+  top: 270px;
+  display: block;
+  margin-top: 35px;
+  padding: 15px;
+  width: 229px;
+  height: 48px;
+  background-color: var(--Off-White);
+  /*Sombra*/
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+  border: none;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--warm-black);
+}
+.header--button span {
+  display: inline-block;
+  width: 13px;
+  height: 8px;
+  margin-left: 10px;
+  /*no funciona*/
+  background-image: url("./Assets/iconos/clock\ 1.svg");
+}
+main {
+  width: 100%;
+  height: auto;
+  min-width: 320px;
+  background-color: var(--Off-White);
+}
+.main-exchange-container{
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.main-exchange-container--title {
     width: 90%;
     min-width: 288px;
     max-width: 900px;
-    height: 218px;
-    margin-top: 40;
-    text-align: center;
-    align-self: center;
-}
-.header--title-container h1{
-    font-size: 2.4rem;
-    font-weight: bold;
-    line-height: 2.6rem;
-    color: var(--Just-White);
-}
-.header--title-container p{
-    margin-top: 25px;
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 1.8rem;
-    color: var(--soft-orange)
-}
-.header--title-container .header--button {
-    position: absolute;
-    left: calc(50% - 118px);
-    top: 270px;
-    display: block;
-    margin-top: 35px;
-    padding: 15px;
-    width: 229px;
-    height: 48px;
-    background-color: var(--Off-White);
-    /*Sombra*/
-    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
-    border: none;
-    border-radius: 5px;
-    font-size: 1.4rem;
-    font-weight: bold;
-    text-decoration: none;
-    color: var(--warm-black);
-}
-.header--button span {
-    display: inline-block;
-    width: 13px;
-    height: 8px;
-    margin-left: 10px;
-    /*no funciona*/
-    background-image: url("./Assets/iconos/clock\ 1.svg"); 
+    margin: 0 auto;
 }
