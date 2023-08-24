@@ -83,6 +83,10 @@
   form button:hover{
     background-color: #ffbdf4;
   }
+  .texto-final {
+    display: flex;
+    justify-content: center;
+  }
   .texto-final-p {
     color: #464444;
     font-size: 12px;
@@ -91,6 +95,18 @@
     margin-left: 10px;
     margin-right: 10px;
     padding: 0px;
+  }
+  .footer1{
+  height: 4px;
+  width: 80px;
+  background: linear-gradient(to right, var(--white), var(--pink));
+  margin-top: 20px;
+  }
+  .footer2 {
+  height: 4px;
+  width: 80px;
+  background: linear-gradient(to right, var(--pink), var(--white));
+  margin-top: 20px;
   }
   footer {
     font-size: 16px;
