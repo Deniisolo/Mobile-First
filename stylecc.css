@@ -28,25 +28,23 @@
   header img {
     width: 200px;
     margin: 0%;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
     align-self: center;
-    padding: 0%;
+    padding: 0;
   }
   .header--title-container {
     color: var(--gray);
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     margin-top: 0%;
-    font-size: px;
-    padding: 0%;
+    font-size: 16px;
+    padding: 0;
   }
   main {
-    background-color: aqua;
     font-size: 16px;
     font-weight: bold;
     margin-top: 100%;
   }
   footer {
-    background-color: #f89aee;
     font-size: 16px;
     font-weight: bold;
   }
