@@ -28,7 +28,7 @@
   header img {
     width: 200px;
     margin: 0%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     align-self: center;
     padding: 0;
   }
@@ -58,6 +58,12 @@
     box-shadow: 2px 2px 5px rgba(124, 114, 114, 0.3);
     margin: 0 auto;
   }
+  .texto-password {
+    font-size: 14px;
+    margin-left: auto;
+    margin-bottom: 10px;
+  }
+  
   footer {
     font-size: 16px;
     font-weight: bold;
