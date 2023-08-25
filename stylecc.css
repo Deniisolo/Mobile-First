@@ -31,14 +31,13 @@
     width: 200px;
     height: 200px;
     margin: 0%;
-    margin-bottom: 0;
+    margin-bottom: 0%;
     align-self: center;
     padding: 0;
   }
   .header--title-container {
     color: var(--gray);
     margin-bottom: 0;
-    
     font-size: 16px;
     padding: 0;
   }
@@ -46,7 +45,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
     justify-items: center;
     font-size: 16px;
     padding: 0;
@@ -126,7 +124,7 @@
     margin-bottom: 40px;
   }
   .cuentas img {
-    height: 40px;
+  height: 40px;
   width: 40px;
   padding: 0%;
   margin-top: 10px;
@@ -138,8 +136,7 @@
   .texto-end {
     display: flex;
     justify-content: center;
-    margin-top: 130px;
-    margin-bottom: 0 auto;
+    margin-top: 10%;
   }
   .texto-end a{
     text-decoration: none;
