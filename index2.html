@@ -16,38 +16,37 @@
     <header>
       <!-- <img src="/Assets/iconos/logocerebritos.svg" alt="Logo de la empresa" /> -->
       <div class="header--title">
-        <img src="/Assets/pics/inteligencia-artificial logo.svg" alt="logo"> 
-      <h1 >Cerebritos </h1>
+        <img src="/Assets/pics/inteligencia-artificial logo.svg" alt="logo" />
+        <h1>Cerebritos</h1>
       </div>
       <div class="header--title-container">
         <p>Welcome Back, Please login to your account</p>
       </div>
     </header>
-    <main>
-      <form action="procesar_login.php" method="post">
-        <input
-          type="text"
-          placeholder="User, Email & phone"
-          name="usuario"
-          required
-        />
-        <br />
-        <input
-          type="password"
-          placeholder="Password"
-          id="contrasena"
-          name="contrasena"
-          required
-        />
-        <br />
-        <p class="texto-password">forgot your password?</p>
-        <button type="submit">Login</button>
-      </form>
-      <div class="img-cohete">
-        <img src="/Assets/pics/our-vision.png" alt="cohete">
-
-      </div>
-    </main>
+    <div class="form-container">
+      <main>
+        <form action="procesar_login.php" method="post">
+          <input
+            type="text"
+            placeholder="User, Email & phone"
+            name="usuario"
+            required
+          />
+          <br />
+          <input
+            type="password"
+            placeholder="Password"
+            id="contrasena"
+            name="contrasena"
+            required
+          />
+          <br />
+          <p class="texto-password">forgot your password?</p>
+          <button type="submit">Login</button>
+        </form>
+      </main>
+      <img class="img-cohete" src="/Assets/pics/our-vision.png" alt="cohete" />
+    </div>
     <footer>
       <div class="texto-final">
         <div class="footer1"></div>
@@ -55,11 +54,15 @@
         <div class="footer2"></div>
       </div>
       <div class="container-cuentas">
-        <div class="cuentas"><img src="/Assets/pics/google.png" alt="Google" /></div>
+        <div class="cuentas">
+          <img src="/Assets/pics/google.png" alt="Google" />
+        </div>
         <div class="cuentas">
           <img src="/Assets/pics/facebook.png" alt="facebook" />
         </div>
-        <div class="cuentas"><img src="/Assets/pics/apple.png" alt="apple" /></div>
+        <div class="cuentas">
+          <img src="/Assets/pics/apple.png" alt="apple" />
+        </div>
       </div>
       <div class="texto-end">
         <p>Don’t have an Account?</p>

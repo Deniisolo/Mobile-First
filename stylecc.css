@@ -64,6 +64,10 @@
     box-shadow: 2px 2px 5px rgba(124, 114, 114, 0.3);
     margin-top: 1px;
   }
+  .img-cohete{
+    display: none;
+    visibility: hidden;
+  }
   .texto-password {
     font-size: 14px;
     margin-left: auto;
@@ -148,11 +152,6 @@
   }
 }
 @media (min-width: 821px) and (max-width: 1280px) {
-  main {
-  background-image: url("/Assets/pics/our-vision.png");
-  height: 500px;
-  width: 600px;
-}
 header {
   text-align: center;
   position: relative;
@@ -173,12 +172,18 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0; /* Elimina cualquier margen vertical */
+  margin: 0; 
 }
 .header--title-container {
   color: var(--gray);
   font-size: 16px;
   padding: 0;
+}
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row; 
 }
 main form {
   display: flex;
@@ -188,8 +193,10 @@ main form {
   font-size: 16px;
   padding: 0;
   margin-top: 1px;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
 }
-
 main form input {
   display: block;
   width: 80%;
@@ -199,6 +206,13 @@ main form input {
   background-color: var(--sotf-gray);
   box-shadow: 2px 2px 5px rgba(124, 114, 114, 0.3);
   margin-top: 1px;
+}
+.img-cohet{
+  background-color: var(--beige);
+}
+.img-cohete img {
+  height: 200px;
+  width: 200px;
 }
 .texto-password {
   font-size: 14px;
